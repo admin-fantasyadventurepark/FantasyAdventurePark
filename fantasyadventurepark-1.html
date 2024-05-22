@@ -1,0 +1,268 @@
+FantasyAdventurePark/
+├── index.html
+├── attractions.html
+├── tickets.html
+├── login.html
+├── styles.css
+└── scripts.js
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy Adventure Park</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fantasy Adventure Park</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="attractions.html">Attractions</a></li>
+                <li><a href="tickets.html">Tickets</a></li>
+                <li><a href="login.html">Staff Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="welcome">
+            <h2>Welcome to Fantasy Adventure Park</h2>
+            <p>Experience the thrill of a lifetime at Fantasy Adventure Park! Enjoy exciting rides, amazing shows, and unforgettable adventures.</p>
+        </section>
+        <section id="highlights">
+            <h2>Park Highlights</h2>
+            <ul>
+                <li>Thrilling roller coasters</li>
+                <li>Family-friendly attractions</li>
+                <li>Live entertainment</li>
+                <li>Delicious dining options</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Fantasy Adventure Park. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attractions - Fantasy Adventure Park</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fantasy Adventure Park</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="attractions.html">Attractions</a></li>
+                <li><a href="tickets.html">Tickets</a></li>
+                <li><a href="login.html">Staff Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="attractions">
+            <h2>Our Attractions</h2>
+            <ul>
+                <li>Dragon's Den Roller Coaster</li>
+                <li>Magic Castle Adventure</li>
+                <li>Pirate's Cove Water Ride</li>
+                <li>Enchanted Forest Walk</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Fantasy Adventure Park. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets - Fantasy Adventure Park</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fantasy Adventure Park</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="attractions.html">Attractions</a></li>
+                <li><a href="tickets.html">Tickets</a></li>
+                <li><a href="login.html">Staff Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="tickets">
+            <h2>Buy Tickets</h2>
+            <p>Choose your ticket type and enjoy a day full of fun and adventure!</p>
+            <ul>
+                <li>Adult: $50</li>
+                <li>Child: $30</li>
+                <li>Family (2 adults + 2 children): $140</li>
+                <li>Season Pass: $200</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Fantasy Adventure Park. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Login - Fantasy Adventure Park</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fantasy Adventure Park</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="attractions.html">Attractions</a></li>
+                <li><a href="tickets.html">Tickets</a></li>
+                <li><a href="login.html">Staff Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="login">
+            <h2>Staff Login</h2>
+            <form action="javascript:void(0);" method="post" onsubmit="login()">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Fantasy Adventure Park. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 1em;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h1, h2 {
+    margin: 0.5em 0;
+}
+
+#tickets ul, #highlights ul {
+    list-style: none;
+    padding: 0;
+}
+
+#tickets ul li, #highlights ul li {
+    background-color: #e7e7e7;
+    margin: 0.5em 0;
+    padding: 0.5em;
+}
+function login() {
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+
+    if (username === 'staff' && password === 'password') {
+        alert('Login successful!');
+        window.location.href = 'index.html';
+    } else {
+        alert('Invalid credentials, please try again.');
+    }
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers - Fantasy Adventure Park</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fantasy Adventure Park</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="attractions.html">Attractions</a></li>
+                <li><a href="tickets.html">Tickets</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="login.html">Staff Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="careers">
+            <h2>Careers at Fantasy Adventure Park</h2>
+            <p>Join our team and help create unforgettable experiences for our guests!</p>
+            <h3>Current Job Openings:</h3>
+            <ul>
+                <li><strong>Ride Operator</strong> - Full-Time, Part-Time</li>
+                <li><strong>Food & Beverage Staff</strong> - Full-Time, Part-Time</li>
+                <li><strong>Guest Services Representative</strong> - Full-Time</li>
+                <li><strong>Maintenance Technician</strong> - Full-Time</li>
+                <li><strong>Marketing Coordinator</strong> - Full-Time</li>
+            </ul>
+            <p>If you are interested in applying, please send your resume and cover letter to <a href="mailto:careers@fantasyadventurepark.com">careers@fantasyadventurepark.com</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Fantasy Adventure Park. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<li><a href="careers.html">Careers</a></li>
